@@ -1,0 +1,159 @@
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    gap: 14px;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    padding-bottom: 0;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.overview img {
+    width: 600px;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 0.5em;
+    border-color: white;
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    margin: 0;
+    padding: 24px;
+    gap: 24px;
+}
+
+.overviewcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.content {
+    background-color: #b6c8e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.random-info {
+    padding: 24px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.random-info .title {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    width: 300px;
+}
+
+.description {
+    padding: 8px;
+    text-align: center;
+}
+
+.quotecontainer {
+    background-color: #ddebff;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 32px;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.author {
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.newsletter {
+    padding: 14px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: white;
+}
+
+.newslettertext .title {
+    margin-bottom: 8px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header, .footer, .overview {
+    background-color: #1F2937;
+    color: white;
+}
